@@ -1,5 +1,5 @@
 {
-    "name": "JulesZYTB/bloumechat-api",
+    "name": "bloumechat/bloumechat-api",
     "description": "PHP module pour l'api de BloumeChat OAuth2",
     "type": "library",
     "license": "MIT",
