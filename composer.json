@@ -1,14 +1,38 @@
 {
     "name": "bloumechat/bloumechat-api",
-    "description": "PHP module pour l'api de BloumeChat OAuth2",
+    "description": "PHP module pour interagir avec l'API OAuth2 de BloumeChat.",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Jules Beaufort",
+            "email": "julesbeaufort.entreprise@gmail.com",
+            "homepage": "https://bloumechat.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://bloumechat.com",
+    "support": {
+        "issues": "https://github.com/JulesZYTB/bloumechat-php/issues",
+        "docs": "https://docs.bloumechat.com",
+        "source": "https://github.com/JulesZYTBe/bloumechat-php"
+    },
     "autoload": {
         "psr-4": {
             "BloumeChat\\": "src/"
         }
     },
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "minimum-stability": "stable",
+    "keywords": ["bloumechat", "api", "oauth2", "php", "module"],
+    "scripts": {
+        "test": "phpunit"
     }
 }
