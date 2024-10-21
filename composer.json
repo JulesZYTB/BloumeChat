@@ -1,0 +1,14 @@
+{
+    "name": "JulesZYTB/bloumechat-api",
+    "description": "PHP module pour l'api de BloumeChat OAuth2",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BloumeChat\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
