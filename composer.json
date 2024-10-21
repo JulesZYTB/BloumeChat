@@ -3,7 +3,7 @@
     "description": "PHP module pour interagir avec l'API OAuth2 de BloumeChat.",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
         {
             "name": "Jules Beaufort",
@@ -30,7 +30,8 @@
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true
     "keywords": ["bloumechat", "api", "oauth2", "php", "module"],
     "scripts": {
         "test": "phpunit"
