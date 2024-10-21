@@ -31,7 +31,7 @@
         "phpunit/phpunit": "^9.5"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
     "keywords": ["bloumechat", "api", "oauth2", "php", "module"],
     "scripts": {
         "test": "phpunit"
