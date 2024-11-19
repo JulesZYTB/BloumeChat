@@ -7,10 +7,10 @@ class BloumeChatAPI
     private $base_url = 'https://bloumechat.com/api/v1/oauth2/resources';
 
     // Fonction pour récupérer les infos d'un utilisateur avec access_token
-    public function getUserInfo($access_token)
+    public function getUserInfo($access_token, $app_secret)
     {
         // Créer l'URL avec le token
-        $url = $this->base_url . '?access_tokens=' . $access_token;
+        $url = $this->base_url . '?access_tokens=' . $access_token . '&app_secret=' . $app_secret;
 
         // Initialiser cURL
         $ch = curl_init();
